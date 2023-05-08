@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Head from "next/head";
-import Layout from "../../components/layout";
+import Layout, { siteTitle } from "../../components/layout";
 
 export default function FirstPost() {
   return (
-    <Layout>
+    <Layout home>
       <Head>
         <title>My first post!</title>
       </Head>
