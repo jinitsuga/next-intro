@@ -22,3 +22,6 @@ Dynamic routes recap: If I want to generate static routes, for simplicity's sake
 - We'll need a page at /posts/[id].jsx (square brackets means dynamic)
 - this [id] page will need a React component to render the contents, and the usage of getStaticPaths (should return array of possible values for [id])
 - our [id] page will also need a getStaticProps functions, which will the necessary data depending on the value of "id".
+- This process includes some node.js shenaningans that I hadn't seen in a while, using the filesystem (fs) to read some filenames and contents,
+- as well as using the path system, which I also hadn't seen in a while... but feels a little more intuitive.
+  All in all it doesn't seem that complicated but the lack of practice certainly makes me feel like it i. I can't wait to get my hands dirty with Next while building some projects that I've had in mind.
