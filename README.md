@@ -1,5 +1,11 @@
 This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 
+Just tossing this in here for completion's sake -- clone, npm install the dependencies and run it locally with
+
+```
+npm run dev
+```
+
 ### Some comments
 
 I've only explored a tiny % of what this framework brings, but the convenience of almost everything I've seen so far has blown my mind.
@@ -25,3 +31,4 @@ Dynamic routes recap: If I want to generate static routes, for simplicity's sake
 - This process includes some node.js shenaningans that I hadn't seen in a while, using the filesystem (fs) to read some filenames and contents,
 - as well as using the path system, which I also hadn't seen in a while... but feels a little more intuitive.
   All in all it doesn't seem that complicated but the lack of practice certainly makes me feel like it i. I can't wait to get my hands dirty with Next while building some projects that I've had in mind.
+  Definitely implementing these markdown formatting techniques on my own portfolio blog!
